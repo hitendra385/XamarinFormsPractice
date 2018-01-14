@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinForms.LayoutPage">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master" BackgroundColor="Gray">
+            <ContentPage.Content>
+                <Button Text="Page 1" Clicked="Handle_Clicked">
+                </Button>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <StackLayout>
+                    <Button Text="Page 1" Clicked="Handle_Clicked">
+                    </Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
